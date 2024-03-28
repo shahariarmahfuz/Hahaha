@@ -1,13 +1,13 @@
 module.exports.config = {
-  name: "gemi",
-  version: "1.0.0",
-  permssion: 0,
-  credits: "Deku",
-  prefix: true,
-  description: "this command will help you to answer your questions!",
-  category: "Artificial Intelligence",
-  usages: "(name_of_cmd) [query]",
-  cooldowns: 0
+	name: "gemi",
+	version: "1.0.1",
+	hasPermssion: 0,
+	credits: "Yan Maglinte",
+	description: "chat with ai",
+  usePrefix: true,
+	commandCategory: "chatting",
+	usages: "[Chatbots]",
+	cooldowns: 5
 };  
   
 module.exports.run = async ({ api, event, args }) => {
